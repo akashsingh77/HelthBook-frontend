@@ -1,0 +1,1 @@
+export default function ChatMessage({ user, children }) { return <div className={`message ${user ? 'user' : ''}`}><div className="avatar">{user ? 'AM' : 'HB'}</div><div className="bubble">{children}</div></div> }

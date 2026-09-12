@@ -1,0 +1,1 @@
+export default function AppointmentCard({ day='24', month='AUG', name='Dr. Maya Patel', time='10:30 AM' }) { return <li><div className="datebox"><b>{day}</b>{month}</div><div><h4>{name}</h4><p>{time} · Video consultation</p></div></li> }

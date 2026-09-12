@@ -1,0 +1,1 @@
+export default function Prescriptions(){return <section className="page"><p className="eyebrow">CARE PLAN</p><h1>Prescriptions</h1><div className="empty-state"><span>⌑</span><h2>Prescription management</h2><p>Active medicines and refills will appear here.</p></div></section>}
